@@ -1,0 +1,15 @@
+{
+  "name": "straw",
+  "version": "1.0.0",
+  "description": "Règlement du serveur Straw",
+  "main": "straw.js",
+  "author": "Straw Café",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.6.0"
+  },
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "express": "^4.18.0"
+  }
+}
