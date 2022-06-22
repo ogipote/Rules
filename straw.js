@@ -22,25 +22,25 @@ var assistance = new Discord.MessageEmbed()
 var discussion = new Discord.MessageEmbed()
 .setColor('#303136')
 .setTitle(`Discussion & Sécuritée`)
-.setDescription(`2.・**Harcèlement et cyberintimidation.**
+.setDescription(`1.・**Harcèlement et cyberintimidation.**
 Nous ne tolérons pas ces actes. Ils correspondent par exemple à des commentaires ou à des actions visant à :
-> Traquer, agresser, intimider, blesser, attaquer, abuser ou humilier quelqu'un (ou une chose à laquelle une personne peut s'intéresser). Cela comprend l'utilisation ou l'encouragement à l'utilisation de vulgarités (jurons)
-> Révéler les données personnelles d'une personne.
-> Harceler ou isoler une personne (ou une chose à laquelle une personne peut s'intéresser) dans le but de la ridiculiser, d'abuser d'elle, de perpétrer une attaque malveillante contre elle, ou de réaliser toute chose de même nature.
-> Dénoncez publiquement la mauvaise conduite des autres. Vous devez ouvrir un ticket de signalement sur le serveur pour nous informer de tout mauvais comportement.
+> ・Traquer, agresser, intimider, blesser, attaquer, abuser ou humilier quelqu'un (ou une chose à laquelle une personne peut s'intéresser). Cela comprend l'utilisation ou l'encouragement à l'utilisation de vulgarités (jurons)
+> ・Révéler les données personnelles d'une personne.
+> ・Harceler ou isoler une personne (ou une chose à laquelle une personne peut s'intéresser) dans le but de la ridiculiser, d'abuser d'elle, de perpétrer une attaque malveillante contre elle, ou de réaliser toute chose de même nature.
+> ・Dénoncez publiquement la mauvaise conduite des autres. Vous devez ouvrir un ticket de signalement sur le serveur pour nous informer de tout mauvais comportement.
 > Encourager les autres personnes à faire ce qui est listé ci-dessus.
 
 **2.・Mise en danger de mineurs.**
 Nous avons des utilisateurs de tous âges et nous voulons créer un environnement sécurisé pour tous, y compris les mineurs. De ce fait, nous n'autorisons aucune action pouvant entrainer les enfants dans des situations inappropriées ou dangereuses, notamment :
-・La prédation sexuelle et autres comportements de prédation.
-・Tout ce qui sexualise les mineurs.
-・Tous les autres actes ou commentaires énumérés dans les présentes Règles qui sont adressés ou liés aux enfants.
+> ・La prédation sexuelle et autres comportements de prédation.
+> ・Tout ce qui sexualise les mineurs.
+> ・Tous les autres actes ou commentaires énumérés dans les présentes Règles qui sont adressés ou liés aux enfants.
 
 3.・**Contenu sexuel.**
 Nous n'autorisons pas ce type de contenu, notamment :
-・Des contenus ou des actes sexuels, la violence sexuelle, l'exploitation de toute sorte, ou la violence excessive. Ces contenus sont inclus, qu'ils impliquent de la nudité ou non, qu'ils présentent des caractéristiques de la pornographie ou non, qu'ils soient explicites ou non.
-・Des contenus qui impliquent ou font apparaître une personne nu ou en sous-vêtements.
-・Des atrocités, des massacres et d'autres événements réels (ou pseudo-réels) choquants.`)
+> ・Des contenus ou des actes sexuels, la violence sexuelle, l'exploitation de toute sorte, ou la violence excessive. Ces contenus sont inclus, qu'ils impliquent de la nudité ou non, qu'ils présentent des caractéristiques de la pornographie ou non, qu'ils soient explicites ou non.
+> ・Des contenus qui impliquent ou font apparaître une personne nu ou en sous-vêtements.
+> ・Des atrocités, des massacres et d'autres événements réels (ou pseudo-réels) choquants.`)
 .setImage('')
 
 client.on('ready', () => {
@@ -78,7 +78,14 @@ client.on('messageCreate',  message => {
 				new MessageButton()
 					.setCustomId('assistance')
 					.setLabel(`Contacter l'assistance de la communauté`)
-					.setStyle('SUCCESS'),
+					.setStyle('PRIMARY'),
+			);
+  const row2 = new MessageActionRow()
+			.addComponents(
+				new MessageButton()
+					.setURL('https://discord.com/channels/681797849926860810/945909799609065503/977002360641552435')
+					.setLabel(`Prendre des rôles`)
+					.setStyle('LINK'),
 			);
 	if (message.content.toLowerCase().startsWith('.')) {
 	 	const msg = message.content.slice(1).trim()
@@ -109,7 +116,7 @@ client.on("interactionCreate", interaction => {
                 
             };
               if(interaction.values == "discussion"){
-                    interaction.reply({embeds: [discussion], ephemeral: true});
+                    interaction.reply({embeds: [discussion], components: [row2], ephemeral: true});
                 
             };
               if(interaction.values == "conditions"){
