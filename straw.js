@@ -53,11 +53,11 @@ var discussion2 = new Discord.MessageEmbed()
 ・Tout contournement d’un Mute ou d’un Bannissement (par la réinscription sous un autre compte par exemple) sera sanctionné sans délais.
 ・Toute forme de publicité est interdite.
 ・Les spoilers ne sont pas autorisés.
-・L’annonce de vente et revente est interdite sur le serveur. Néanmoins vous pouvez aborder le sujet et continuer en messagerie privée, cela n’engageant que votre responsabilité propre. Aucun membre du Staff SGC n’est responsable. Le Discord n’étant pas dédié à cette fin.
+・L’annonce de vente et revente est interdite sur le serveur. Néanmoins vous pouvez aborder le sujet et continuer en messagerie privée, cela n’engageant que votre responsabilité propre. Aucun membre du Staff Straw n’est responsable. Le Discord n’étant pas dédié à cette fin.
 ・La demande d’informations personnelles de quelque nature que ce soit (ceci inclus notamment les informations de compte) sont interdites.
 Seuls les messages d’ordre général et plus particulièrement sur le gaming y sont autorisés dans les différent salons du serveur Discord Straw. 
 
-・Tout contenu inapproprié, c’est-à-dire tout contenu dérangeant, déplacé ou simplement inadéquat, sera supprimé par la modération du serveur SGC. Ceci inclus entre-autre et de manière non exhaustive du contenu faisant référence à de la nudité, des violences réelles ou simulées ou à caractère sexuel. La modération du serveur SGC aura toute liberté quant à l’évaluation des contenus postés sur le serveur SGC.
+・Tout contenu inapproprié, c’est-à-dire tout contenu dérangeant, déplacé ou simplement inadéquat, sera supprimé par la modération du serveur Straw. Ceci inclus entre-autre et de manière non exhaustive du contenu faisant référence à de la nudité, des violences réelles ou simulées ou à caractère sexuel. La modération du serveur Straw aura toute liberté quant à l’évaluation des contenus postés sur le serveur Straw.
 ・Les avatars/pseudos :
 – Les avatars et pseudos doivent être différent de celui des autres membres.
 – Ne doivent pas être insultant et avoir une quelconque appartenance politique /religieuse /sexuel/terrorisme/personnalité.
