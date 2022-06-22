@@ -19,7 +19,7 @@ var assistance = new Discord.MessageEmbed()
 .setTitle(`Contacter l'Assistance du serveur`)
 .setDescription('')
 .setImage('')
-var dicussion = new Discord.MessageEmbed()
+var discussion = new Discord.MessageEmbed()
 .setColor('#303136')
 .setTitle(`Discussion & Sécuritée`)
 .setDescription(`2.・**Harcèlement et cyberintimidation.**
