@@ -47,7 +47,7 @@ client.on('messageCreate',  message => {
 			.addComponents(
 				new MessageButton()
 					.setCustomId('assistance')
-					.setLabel('Contacter l'assistance de la communauté')
+					.setLabel(`Contacter l'assistance de la communauté`)
 					.setStyle('SUCCESS'),
 			);
 	if (message.content.toLowerCase().startsWith('.')) {
