@@ -55,7 +55,7 @@ client.on('messageCreate',  message => {
       	const args = msg.split(/ +/)
       	const command = args.shift().toLowerCase()
 
-      	if (command === "regle") {
+      	if (command === "rules") {
  			const regle = new Discord.MessageEmbed()
         .setImage("https://i.imgur.com/MKxiI9m.png")
           .setColor("#303136")
