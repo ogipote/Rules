@@ -44,6 +44,24 @@ Nous n'autorisons pas ce type de contenu, notamment :
 > ・Des contenus qui impliquent ou font apparaître une personne nu ou en sous-vêtements.
 > ・Des atrocités, des massacres et d'autres événements réels (ou pseudo-réels) choquants.`)
 .setImage('')
+var discussion2 = new Discord.MessageEmbed()
+.setColor('#303136')
+.setDescription(`・En cas de conflit, les membres sont priés de s’adresser directement à la modération et ne pas réagir aux provocations.
+・Ce discord est un endroit neutre : les propos racistes, homophobes, sexistes et/ou religieux sont interdit.
+・Les liens renvoyant vers de sites frauduleux, à caractère pornographiques, illégaux ou de piratage sont interdits.
+・Il est interdit de spam/flood, que ce soit en termes d’image(s) et/ou de texte(s).
+・Tout contournement d’un Mute ou d’un Bannissement (par la réinscription sous un autre compte par exemple) sera sanctionné sans délais.
+・Toute forme de publicité est interdite.
+・Les spoilers ne sont pas autorisés.
+・L’annonce de vente et revente est interdite sur le serveur. Néanmoins vous pouvez aborder le sujet et continuer en messagerie privée, cela n’engageant que votre responsabilité propre. Aucun membre du Staff SGC n’est responsable. Le Discord n’étant pas dédié à cette fin.
+・La demande d’informations personnelles de quelque nature que ce soit (ceci inclus notamment les informations de compte) sont interdites.
+Seuls les messages d’ordre général et plus particulièrement sur le gaming y sont autorisés dans les différent salons du serveur Discord Straw. 
+
+・Tout contenu inapproprié, c’est-à-dire tout contenu dérangeant, déplacé ou simplement inadéquat, sera supprimé par la modération du serveur SGC. Ceci inclus entre-autre et de manière non exhaustive du contenu faisant référence à de la nudité, des violences réelles ou simulées ou à caractère sexuel. La modération du serveur SGC aura toute liberté quant à l’évaluation des contenus postés sur le serveur SGC.
+・Les avatars/pseudos :
+– Les avatars et pseudos doivent être différent de celui des autres membres.
+– Ne doivent pas être insultant et avoir une quelconque appartenance politique /religieuse /sexuel/terrorisme/personnalité.
+– Les codes de parrainages dans les pseudos/avatars sont interdits.`)
 
 client.on('ready', () => {
 	console.log('ready')
@@ -118,7 +136,7 @@ client.on("interactionCreate", interaction => {
                 
             };
               if(interaction.values == "discussion"){
-                    interaction.reply({embeds: [discussion], ephemeral: true});
+                    interaction.reply({embeds: [ discussion, discussion2 ], ephemeral: true});
                 
             };
               if(interaction.values == "conditions"){
