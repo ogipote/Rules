@@ -112,11 +112,11 @@ client.on("interactionCreate", interaction => {
                 console.log("Selection made");
             
                 if(interaction.values == "generale"){
-                    interaction.reply({embeds: [generale], ephemeral: true});
+                    interaction.reply({embeds: [generale], components: [row2], ephemeral: true});
                 
             };
               if(interaction.values == "discussion"){
-                    interaction.reply({embeds: [discussion], components: [row2], ephemeral: true});
+                    interaction.reply({embeds: [discussion], ephemeral: true});
                 
             };
               if(interaction.values == "conditions"){
