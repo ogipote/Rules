@@ -79,11 +79,11 @@ client.on("interactionCreate", interaction => {
                 
             };
               if(interaction.values == "discussion"){
-                    interaction.reply({embeds: [EmbedTextuel], ephemeral: true});
+                    interaction.reply({embeds: [discussion], ephemeral: true});
                 
             };
               if(interaction.values == "conditions"){
-                    interaction.reply({embeds: [EmbedSecurité], ephemeral: true});
+                    interaction.reply({embeds: [conditions], ephemeral: true});
                 
             };
         }
