@@ -104,7 +104,7 @@ client.on('messageCreate',  message => {
           .setColor("#303136")
           .setDescription("Faites de bonnes rencontres, passer du bon temps sur notre communauté sociale sur le thème de la discussion générale, tout en respectant le règlement de notre communauté\n\n **Liens Utiles**\n<:twitter:988909880373035060> [Twitter](https://twitter.com/DiscordStraw?t=8A1kieIei2KPKWaWown6xw&s=09)\n<:youtube:988909931962974278> [Youtube](https://youtube.com/c/strawcafe)\n\n**Information mis à jour le** <t:1655846640:R>\n**Règlement mis à jour le** <t:1655848500:R>")
 
-       		message.channel.send({ embeds: [ regle, descregle ], components: [ row1, row ]})
+       		message.channel.send({ embeds: [ regle, descregle ], components: [row]})
       	}
 	}
 });
