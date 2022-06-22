@@ -43,34 +43,11 @@ client.on('messageCreate',  message => {
                 }
             ])
 			);
-  var row3 = new Discord.MessageActionRow()
-        .addComponents(
-            new Discord.MessageSelectMenu()
-            .setCustomId("select")
-            .setPlaceholder("📣 Information Utiles")
-            .addOptions([
-                {
-                    label: "1. Generale",
-                  emoji: "",
-                    value: "generale"
-                },
-                {
-                    label: "2. Discussion",
-                  emoji: "",
-                    value: "discussion"
-                },
-              {
-                    label: "3. Conditions",
-                emoji: "",
-                    value: "conditions"
-                }
-            ])
-			);
   const row1 = new MessageActionRow()
 			.addComponents(
 				new MessageButton()
 					.setCustomId('assistance')
-					.setLabel('Assistance')
+					.setLabel('Contacter l'assistance de la communauté')
 					.setStyle('SUCCESS'),
 			);
 	if (message.content.toLowerCase().startsWith('.')) {
