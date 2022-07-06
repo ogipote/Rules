@@ -19,7 +19,6 @@ var conditions = new Discord.MessageEmbed()
 .setTitle(`Exigences relatives à l’âge et responsabilité des parents et tuteurs`)
 .setDescription(`En accédant à nos services, vous confirmez que vous avez au moins 13 ans et que vous satisfaites à l’âge minimum du consentement numérique dans votre pays. Nous conservons une [liste des âges minimums](https://support.discord.com/hc/en-us/articles/360040724612) dans le monde entier à titre de ressource à votre attention, mais nous ne sommes pas en mesure de garantir qu’elle est toujours exacte.
 Si vous avez l’âge suffisant pour accéder à nos services dans votre pays, mais que vous n’êtes pas assez âgé pour pouvoir consentir à nos conditions, votre parent ou tuteur doit accepter nos conditions en votre nom. Veuillez demander à votre parent ou tuteur de lire ces conditions avec vous. Si vous êtes un parent ou un tuteur légal, et que vous autorisez votre adolescent à utiliser les services, alors les présentes conditions vous sont également applicables et vous êtes responsable de l’activité de votre adolescent sur les services.`)
-.setFooter('Ces règles ont etait ecrite pas discord ils sont appliquer à tous')
 .setImage('')
 var discussion = new Discord.MessageEmbed()
 .setColor('#303136')
