@@ -103,7 +103,7 @@ client.on('messageCreate',  message => {
 			.addComponents(
 				new MessageButton()
 					.setURL('https://discord.com/channels/681797849926860810/945909799609065503/977002360641552435')
-					.setLabel(`Prendre des rôles`)
+					.setLabel(`Rôles`)
 					.setStyle('LINK'),
 			);
 	if (message.content.toLowerCase().startsWith('.')) {
