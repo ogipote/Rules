@@ -9,6 +9,6 @@
     "node": ">=16.6.0"
   },
   "dependencies": {
-    "discord.js": "^13.1.0",
+    "discord.js": "^13.1.0"
   }
 }
