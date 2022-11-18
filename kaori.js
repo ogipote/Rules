@@ -113,13 +113,12 @@ client.on('messageCreate',  message => {
 
       	if (command === "rules") {
  	       const regle = new Discord.MessageEmbed()
-        .setTitle("・Bienvenue sur Kaori, voici la présentation et réglement de la communauté")
+        .setTitle("୨୧ ៸៸ Bienvenue sur Kaori, voici la présentation et réglement de la communauté")
 	.setDescription("Pensez a prendre vos <#945909799609065503> et garder en tête que le règlement du serveur doit être respecter.")
-	.setThumbnail("https://i.imgur.com/yzKlIOB.jpg")
           .setColor("#303136")
         	const descregle = new Discord.MessageEmbed()
           .setAuthor({ name: 'Kaori Café', iconURL: 'https://i.imgur.com/d0diZ3p.jpg'})
-          .setTitle("・Présentation du serveur Kaori Café")
+          .setTitle("୨୧ ៸៸ Présentation du serveur Kaori Café")
           .setColor("#303136")
           .setDescription("Faites de bonnes rencontres, passer du bon temps sur notre communauté sociale sur le thème de la discussion générale, tout en respectant le règlement de notre communauté\n\n**Information mis à jour le** <t:1655846640:R>\n**Règlement mis à jour le** <t:1655848500:R>")
 
