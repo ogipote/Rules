@@ -1,8 +1,8 @@
 {
-  "name": "straw",
+  "name": "kaori",
   "version": "1.0.0",
   "description": "Règlement de la communauté Kaori Café",
-  "main": "straw.js",
+  "main": "kaori.js",
   "author": "Kaori Café",
   "license": "ISC",
   "engines": {
