@@ -113,7 +113,8 @@ client.on('messageCreate',  message => {
 
       	if (command === "rules") {
  			const regle = new Discord.MessageEmbed()
-        .setImage("https://media.discordapp.net/attachments/878095446210379786/992180198034387065/EnSCF0FUYAUJFPF.jpg")
+        .setImage("https://i.imgur.com/fYOpO7D.jpg")
+	.setThumbnail("https://i.imgur.com/yzKlIOB.jpg")
           .setColor("#303136")
         	const descregle = new Discord.MessageEmbed()
           .setAuthor({ name: 'Straw Café', iconURL: 'https://i.imgur.com/d0diZ3p.jpg'})
