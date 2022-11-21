@@ -35,21 +35,21 @@ client.on('messageCreate',  message => {
         .addComponents(
             new Discord.MessageSelectMenu()
             .setCustomId("select")
-            .setPlaceholder("Lire le règlement de la communauté") // Boutton de selection
+            .setPlaceholder("📚 Lire le règlement de la communauté") // Boutton de selection
             .addOptions([
                 {
                     label: "Generale", // Réglement génèrale
-                  emoji: "",
+                  emoji: "👩🏿‍🤝‍👩🏼",
                     value: "generale"
                 },
                 {
                     label: "Discussion", // Réglement de la discussion
-                  emoji: "",
+                  emoji: "🧮",
                     value: "discussion"
                 },
               {
                     label: "Conditions", // Conditions du serveur
-                emoji: "",
+                emoji: "🌈",
                     value: "conditions"
                 }
             ])
@@ -75,7 +75,7 @@ client.on('messageCreate',  message => {
           .setAuthor({ name: 'Kaori Café', iconURL: 'https://i.imgur.com/d0diZ3p.jpg'})
           .setTitle("Bienvenue sur le serveur Kaori Café") // Titre de la présentation
           .setColor("#303136") // Couleur de la présentation
-          .setDescription("Fais-toi de nouveaux amis dans la communauté francophone sociale sur Discord. Découvre de nouveaux anime, manga et jeux que tu ne connaissais pas encore ! Participe à d'innombrables événements, giveaways et bien plus encore ! Nous nous réjouissons de t'accueillir parmi nous.\n\n****Mis à jour du règlement**** : <t:1669023300:R>\n****Mis à jour des informations**** : <t:1669023300:R>") // Description de la présentation
+          .setDescription("Fais-toi de nouveaux amis dans la communauté francophone sociale sur Discord. Découvre de nouveaux anime, manga et jeux que tu ne connaissais pas encore ! Participe à d'innombrables événements, giveaways et bien plus encore ! Nous nous réjouissons de t'accueillir parmi nous.\n\n****Mis à jour du règlement**** : <t:1669023300:R>\n****Mis à jour des informations**** : <t:1669023300:R>") true // Description de la présentation
 
        		message.channel.send({ embeds: [ regle, descregle ], components: [row]})
       	}
