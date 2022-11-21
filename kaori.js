@@ -74,7 +74,10 @@ client.on('messageCreate',  message => {
         	const descregle = new Discord.MessageEmbed()
           .setAuthor({ name: 'Kaori Café', iconURL: 'https://i.imgur.com/d0diZ3p.jpg'})
           .setColor("#303136") // Couleur de la présentation
-          .addField("Bienvenue sur le serveur Kaori Café", "Fais-toi de nouveaux amis dans la communauté francophone sociale sur Discord. Découvre de nouveaux anime, manga et jeux que tu ne connaissais pas encore ! Participe à d'innombrables événements, giveaways et bien plus encore ! Nous nous réjouissons de t'accueillir parmi nous.\n\n****Mis à jour du règlement**** : <t:1669023300:R>\n****Mis à jour des informations**** : <t:1669023300:R>")
+          .addField("", "")
+          .addFields(
+		{ name: 'Bienvenue sur le serveur Kaori Café', value: 'Fais-toi de nouveaux amis dans la communauté francophone sociale sur Discord. Découvre de nouveaux anime, manga et jeux que tu ne connaissais pas encore ! Participe à d\'innombrables événements, giveaways et bien plus encore ! Nous nous réjouissons de t\'accueillir parmi nous.\n\n****Mis à jour du règlement**** : <t:1669023300:R>\n****Mis à jour des informations**** : <t:1669023300:R>' },
+            )
 
        		message.channel.send({ embeds: [ regle, descregle ], components: [row]})
       	}
