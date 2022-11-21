@@ -68,7 +68,13 @@ client.on('messageCreate',  message => {
 
       	if (command === "rules") {
  	       const regle = new Discord.MessageEmbed()
-	        .setImage("https://cdn.discordapp.com/attachments/1042651841059635200/1044179839869005864/anime-monogatari-series-mayoi-hachikuji-shinobu-oshino-wallpaper-preview_2.jpg?size=1024") //Image du haut de la présentation
+	        .addFields(
+		{ name: 'Soutenir la communauté Kaori', value: 'Vous pouvez soutenir notre communauté en boostant notre serveur ou en faisant des donnations mensuelle' },
+		{ name: '\u200B', value: '\u200B' },
+		{ name: 'Où vont les donnations?', value: 'En giveaway sur le serveur', inline: true },
+		{ name: 'Où faire les dons', value: 'Sur [Patreon](https://patreon.com/animefr)', inline: true },
+	)
+           .setThumbnail('https://cdn.discordapp.com/attachments/1030399871397679127/1044194432091697202/detailed-girl-anime-characters_52683-63971.jpeg')
           .setColor("#303136") // Couleur du haut de la présentation
         	const descregle = new Discord.MessageEmbed()
           .setAuthor({ name: 'Kaori Café', iconURL: 'https://i.imgur.com/d0diZ3p.jpg'})
