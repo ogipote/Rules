@@ -82,7 +82,7 @@ client.on('messageCreate',  message => {
       	if (command === "rules") {
  	       const regle = new Discord.MessageEmbed()
 	        .addFields(
-		{ name: 'Présentation de la communauté', value: 'Bienvenue sur Kaori, nous sommes une communauté multi-thémes, une communauté à but ***non-lucratif**, une communauté saine, active, bienveillante qui vise à inclure chacun et chacune dans un respect partager sans aucun jugements insultes sans comptés la différences des un des autres, viens te faire de nouveaux amies. },
+		{ name: 'Présentation de la communauté', value: 'Bienvenue sur Kaori, nous sommes une communauté multi-thémes, une communauté à but ***non-lucratif**, une communauté saine, active, bienveillante qui vise à inclure chacun et chacune dans un respect partager sans aucun jugements insultes sans comptés la différences des un des autres, viens te faire de nouveaux amies.' },
 	)
            .setThumbnail('https://cdn.discordapp.com/attachments/1030399871397679127/1044194432091697202/detailed-girl-anime-characters_52683-63971.jpeg')
           .setColor("#303136") // Couleur du haut de la présentation
