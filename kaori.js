@@ -20,9 +20,14 @@ var generale = new Discord.MessageEmbed()
 	)
 var conditions = new Discord.MessageEmbed()
 .setColor('#303136') // Couleur des conditions
-.setTitle(`Conditions éxiger par Discord`) // Titre des conditions
-.setDescription("Lorsque vous vous inscrivez à Discord vous avais accepter les [`Conditions d'Utilisation`](https://discord.com/terms) et le [`Guide Communautaire`](https://discord.com/guidelines) avant d'Utiliser Discord il est obligatoire d'avoir minimum 13 ans, respecter le guide communautaire, ne pas donner vos données aux inconnus voir même les personnes que vous connaissez les conditions de ce serveur sont aussi ceux de Discord nous éxigeons à ce que nos membres ai l'age minimum requis, qu'ils prennent leurs rôles et qu'ils respecte nôtre règlement, merci de nous signaler tout comportement douteux.") // Description des conditions
-.setImage('https://i.imgur.com/9EYFRmx.png') // Image des condtions
+.addFields(
+		{ name: 'Âge requis par Discord', value: 'Avant de commencer à discuter sur le serveur vous devais respecter les éxigences de discord concernant vôtre âge.' },
+		{ name: '\u200B', value: '\u200B' },
+		{ name: 'Asie', value: '・Corée du Sud : 14+\n・Vietnam : 15+', inline: true },
+		{ name: 'Caraïbes', value: '・Aruba : 16+\n・Pays-Bas caribéens : 16+\n・Curaçao : 16+\n・Sint Maarten : 16+', inline: true },
+	        { name: 'Europe', value: '・Autriche : 14+\n・Bulgarie : 16+\n・Croatie : 16+\n・Chypre : 14+\n・République tchèque : 15+\n・France : 15+\n・Allemagne : 16+\n・Grèce : 15+\n・Hongrie : 16+\n・Irlande : 16+\n・Italie : 14+\n・Lituanie : 14+\n・Luxembourg : 16+\n・Pays-Bas : 16+\n・Pologne : 16+\n・Roumanie : 16+\n・Saint-Marin : 16+\n・Serbie : 15+\n・Slovaquie : 16+\n・Slovénie : 16+\n・Espagne : 14+', inline: true },
+	        { name: 'Amérique du Sud', value: '・Chili : 14+\n・Colombie : 14+\n・Pérou : 14+\n・Venezuela : 14+', inline: true },
+.setImage('https://i.imgur.com/cgKAC3t.png') // Image des condtions
 var discussion = new Discord.MessageEmbed()
 .setColor('#303136') // Couleur du règlement de disccussion (1)
 .setTitle(``) // Titre du règlement de disccussio (1)
