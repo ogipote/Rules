@@ -23,10 +23,10 @@ var conditions = new Discord.MessageEmbed()
 .addFields(
 		{ name: 'Âge requis par Discord', value: 'Avant de commencer à discuter sur le serveur vous devais respecter les éxigences de discord concernant vôtre âge.' },
 		{ name: '\u200B', value: '\u200B' },
-		{ name: 'Asie', value: '・Corée du Sud : 14+\n・Vietnam : 15+', inline: true },
-		{ name: 'Caraïbes', value: '・Aruba : 16+\n・Pays-Bas caribéens : 16+\n・Curaçao : 16+\n・Sint Maarten : 16+', inline: true },
-	        { name: 'Europe', value: '・Autriche : 14+\n・Bulgarie : 16+\n・Croatie : 16+\n・Chypre : 14+\n・République tchèque : 15+\n・France : 15+\n・Allemagne : 16+\n・Grèce : 15+\n・Hongrie : 16+\n・Irlande : 16+\n・Italie : 14+\n・Lituanie : 14+\n・Luxembourg : 16+\n・Pays-Bas : 16+\n・Pologne : 16+\n・Roumanie : 16+\n・Saint-Marin : 16+\n・Serbie : 15+\n・Slovaquie : 16+\n・Slovénie : 16+\n・Espagne : 14+', inline: true },
-	        { name: 'Amérique du Sud', value: '・Chili : 14+\n・Colombie : 14+\n・Pérou : 14+\n・Venezuela : 14+', inline: true },
+		{ name: 'Asie', value: '・Corée du Sud : 14+\n・Vietnam : 15+', inline: false },
+		{ name: 'Caraïbes', value: '・Aruba : 16+\n・Pays-Bas caribéens : 16+\n・Curaçao : 16+\n・Sint Maarten : 16+', inline: false },
+	        { name: 'Europe', value: '・Autriche : 14+\n・Bulgarie : 16+\n・Croatie : 16+\n・Chypre : 14+\n・République tchèque : 15+\n・France : 15+\n・Allemagne : 16+\n・Grèce : 15+\n・Hongrie : 16+\n・Irlande : 16+\n・Italie : 14+\n・Lituanie : 14+\n・Luxembourg : 16+\n・Pays-Bas : 16+\n・Pologne : 16+\n・Roumanie : 16+\n・Saint-Marin : 16+\n・Serbie : 15+\n・Slovaquie : 16+\n・Slovénie : 16+\n・Espagne : 14+', inline: false },
+	        { name: 'Amérique du Sud', value: '・Chili : 14+\n・Colombie : 14+\n・Pérou : 14+\n・Venezuela : 14+', inline: false },
 	)
 .setImage('https://i.imgur.com/cgKAC3t.png') // Image des condtions
 var discussion = new Discord.MessageEmbed()
@@ -82,10 +82,7 @@ client.on('messageCreate',  message => {
       	if (command === "rules") {
  	       const regle = new Discord.MessageEmbed()
 	        .addFields(
-		{ name: 'Soutenir la communauté Kaori', value: 'Vous pouvez soutenir notre communauté en boostant notre serveur ou en faisant des donnations mensuelle' },
-		{ name: '\u200B', value: '\u200B' },
-		{ name: 'Tu veux prendre tes rôles?', value: '[`Clique ici`](https://discord.com/channels/681797849926860810/945909799609065503)', inline: true },
-		{ name: 'Tu veux visiter notre site?', value: '[`Clique ici`](https://kaoricafe.fr)', inline: true },
+		{ name: 'Présentation de la communauté', value: 'Bienvenue sur Kaori, nous sommes une communauté multi-thémes, une communauté à but ***non-lucratif**, une communauté saine, active, bienveillante qui vise à inclure chacun et chacune dans un respect partager sans aucun jugements insultes sans comptés la différences des un des autres, viens te faire de nouveaux amies. },
 	)
            .setThumbnail('https://cdn.discordapp.com/attachments/1030399871397679127/1044194432091697202/detailed-girl-anime-characters_52683-63971.jpeg')
           .setColor("#303136") // Couleur du haut de la présentation
