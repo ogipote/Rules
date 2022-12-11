@@ -27,6 +27,7 @@ var conditions = new Discord.MessageEmbed()
 		{ name: 'Caraïbes', value: '・Aruba : 16+\n・Pays-Bas caribéens : 16+\n・Curaçao : 16+\n・Sint Maarten : 16+', inline: true },
 	        { name: 'Europe', value: '・Autriche : 14+\n・Bulgarie : 16+\n・Croatie : 16+\n・Chypre : 14+\n・République tchèque : 15+\n・France : 15+\n・Allemagne : 16+\n・Grèce : 15+\n・Hongrie : 16+\n・Irlande : 16+\n・Italie : 14+\n・Lituanie : 14+\n・Luxembourg : 16+\n・Pays-Bas : 16+\n・Pologne : 16+\n・Roumanie : 16+\n・Saint-Marin : 16+\n・Serbie : 15+\n・Slovaquie : 16+\n・Slovénie : 16+\n・Espagne : 14+', inline: true },
 	        { name: 'Amérique du Sud', value: '・Chili : 14+\n・Colombie : 14+\n・Pérou : 14+\n・Venezuela : 14+', inline: true },
+	)
 .setImage('https://i.imgur.com/cgKAC3t.png') // Image des condtions
 var discussion = new Discord.MessageEmbed()
 .setColor('#303136') // Couleur du règlement de disccussion (1)
