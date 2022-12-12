@@ -87,7 +87,7 @@ client.on('messageCreate',  message => {
           .setAuthor({ name: 'Kaori Café', iconURL: 'https://i.imgur.com/d0diZ3p.jpg'})
           .setColor("#303136") // Couleur de la présentation
           .setImage('https://i.imgur.com/AFAbFdP.png')
-          .addFields
+          .addFields(
 		{ name: 'Bienvenue sur le serveur Kaori Café', value: 'Bienvenue sur Kaori, une communauté **bienveillantr**, **amicale** et **LGBTQ+**, sois le bienvenue sur nôtre communauté avant de commencer merci de lire nôtre **règlement** via le boutton ci-dessous, passe un très bon moment avec nous.' },
             )
 
