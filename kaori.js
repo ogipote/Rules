@@ -81,14 +81,14 @@ client.on('messageCreate',  message => {
 
       	if (command === "rules") {
  	       const regle = new Discord.MessageEmbed()
-          .setImage('https://i.imgur.com/jVg9lGU.jpg')
+          .setImage('https://i.imgur.com/5HLKuh0.png')
           .setColor("#303136") // Couleur du haut de la présentation
         	const descregle = new Discord.MessageEmbed()
           .setAuthor({ name: 'Kaori Café', iconURL: 'https://i.imgur.com/d0diZ3p.jpg'})
           .setColor("#303136") // Couleur de la présentation
-          .setImage('https://i.imgur.com/hR6BFin.png')
-          .addFields(
-		{ name: '🖐🏻 Bienvenue sur le serveur Kaori Café', value: 'Pense à prendre des [`rôles`](https://discord.com/channels/681797849926860810/945909799609065503)\n\n****▶ Mis à jour du règlement**** : <t:1669023300:R>\n****▶ Mis à jour du serveur**** : <t:1669023300:R>' },
+          .setImage('https://i.imgur.com/AFAbFdP.png')
+          .addFields
+		{ name: 'Bienvenue sur le serveur Kaori Café', value: 'Bienvenue sur Kaori, une communauté **bienveillantr**, **amicale** et **LGBTQ+**, sois le bienvenue sur nôtre communauté avant de commencer merci de lire nôtre **règlement** via le boutton ci-dessous, passe un très bon moment avec nous.' },
             )
 
        		message.channel.send({ embeds: [ regle, descregle ], components: [row]})
