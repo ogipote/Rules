@@ -92,7 +92,7 @@ client.on('messageCreate',  message => {
           .setColor("#303136") // Couleur de la présentation
           .setImage('https://cdn-longterm.mee6.xyz/plugins/embeds/images/883428470326169680/aa790fc67f901531ea198662cf4646042bd6d56e60be4d825c6d495cb2c768d8.png')
           .addFields(
-		{ name: 'Bienvenue sur le serveur Kaori Café', value: '```\n⛩️  ✿  ⋅⊱  Bienvenue sur Kaori Café !```\nest un serveur communautaire afin de regrouper une communauté française autours de plusieurs thème une communauté amicale, LGBTQ+ nous avons pour but de faire à ce que tout se sens inclus\n\nComme tout serveur communautaire, nous avons conçu un règlement que vous devriez respecter à la lettre, au bout d\'\un troisième avertissement et nous serons dans l\'\obligation de vous bannir du serveur.\n\n`\Invitation`\・[.gg/kaori](https://discord.gg/kaori)\n`\Créer le`\・<t:1582578000:R>\n`\Fondatrce`\・<@499447456678019072>' },
+		{ name: 'Bienvenue sur le serveur Kaori Café', value: '```\n⛩️  ✿  ⋅⊱  Bienvenue sur Kaori Café !```\nest un serveur communautaire afin de regrouper une communauté française autours de plusieurs thème une communauté amicale, LGBTQ+ nous avons pour but de faire à ce que tout se sens inclus\n\nComme tout serveur communautaire, nous avons conçu un règlement que vous devriez respecter à la lettre, au bout d\'\un troisième avertissement et nous serons dans l\'\obligation de vous bannir du serveur.\n\n\`\Invitation\`\・[.gg/kaori](https://discord.gg/kaori)\n\`\Créer le\`\・<t:1582578000:R>\n\`\Fondatrce\`\・<@499447456678019072>' },
             )
 
        		message.channel.send({ embeds: [ regle, descregle ], components: [row]})
