@@ -5,7 +5,7 @@ const client = new Discord.Client({ intents: [Discord.Intents.FLAGS.GUILDS, Disc
 var generale = new Discord.MessageEmbed()
 .setColor('#303136') // Couleur du message du règlement generale
 .setTitle('Règlement génèrale') // Titre du règlement generale
-.setImage('https://i.imgur.com/AFAbFdP.png')
+.setImage('https://cdn-longterm.mee6.xyz/plugins/embeds/images/883428470326169680/aa790fc67f901531ea198662cf4646042bd6d56e60be4d825c6d495cb2c768d8.png')
 .addFields(
 		{ name: 'Règlement Importante de la communauté', value: 'Merci de respecter les règles ci-dessous et garder en tête que le staff se réserve de pouvoir prendre des sanctions qui ne sont pas présente sur le règlement.' },
 		{ name: '\u200B', value: '\u200B' },
@@ -29,15 +29,15 @@ var conditions = new Discord.MessageEmbed()
 	        { name: 'Europe', value: '・Autriche : 14+\n・Bulgarie : 16+\n・Croatie : 16+\n・Chypre : 14+\n・République tchèque : 15+\n・France : 15+\n・Allemagne : 16+\n・Grèce : 15+\n・Hongrie : 16+\n・Irlande : 16+\n・Italie : 14+\n・Lituanie : 14+\n・Luxembourg : 16+\n・Pays-Bas : 16+\n・Pologne : 16+\n・Roumanie : 16+\n・Saint-Marin : 16+\n・Serbie : 15+\n・Slovaquie : 16+\n・Slovénie : 16+\n・Espagne : 14+', inline: false },
 	        { name: 'Amérique du Sud', value: '・Chili : 14+\n・Colombie : 14+\n・Pérou : 14+\n・Venezuela : 14+', inline: false },
 	)
-.setImage('https://i.imgur.com/AFAbFdP.png') // Image des condtions
+.setImage('https://cdn-longterm.mee6.xyz/plugins/embeds/images/883428470326169680/aa790fc67f901531ea198662cf4646042bd6d56e60be4d825c6d495cb2c768d8.png') // Image des condtions
 var discussion = new Discord.MessageEmbed()
 .setColor('#303136') // Couleur du règlement de disccussion (1)
-.setImage('https://i.imgur.com/AFAbFdP.png')
+.setImage('https://cdn-longterm.mee6.xyz/plugins/embeds/images/883428470326169680/aa790fc67f901531ea198662cf4646042bd6d56e60be4d825c6d495cb2c768d8.png')
 .setTitle('Règlement Textuel') // Titre du règlement de disccussio (1)
 .setDescription(`・Pas de demande d'attribution de rôle de modérateur.\n・@mentionne le support pour le soutien.\n・Contactez les modérateurs sous <#945908859552292934> pour obtenir de l'aide.\n・Aucun contenu sexuellement explicite.\n・Aucun contenu pornographique.\n・Aucun contenu NSFW.\n・Aucun contenu illégal.\n・Pas de piratage.\n・Pas de modding.\n・Pas de piratage.\n・Aucune publication d'informations personnelles (y compris les vrais noms, adresses, e-mails, mots de passe, informations de compte bancaire et de carte de crédit, etc.).\n・Aucune attaque personnelle.\n・Pas de harcèlement.\n・Pas de sexisme.\n・Pas de racisme.\n・Pas de discours de haine.\n・Pas de langage offensant.\n・Pas de discussions religieuses.\n・Pas de discussions politiques.\n・Pas de discussions sexuelles.\n・Pas de spam.\n・Pas de message excessif (briser une idée dans de nombreux messages au lieu de tout écrire dans un seul article).\n・Pas de murs de texte (que ce soit dans des messages séparés ou comme un seul message).\n・Pas de verrouillage des majuscules.\n・Pas d'emojis abusifs.\n・Pas de réactions abusives.\n・Les modérateurs se réservent le droit de supprimer tout message.\n・Les modérateurs se réservent le droit de modifier n'importe quel message.\n・Pas de publicité sans permission.\n・Aucun lien vers d'autres serveurs.\n・Le bot commande uniquement sous <#945910640860622878>.\n・Pas de hors-sujet / utilisez le bon canal de texte pour le sujet que vous souhaitez discuter.`) // Description du règlement de disccussion (1)
 var discussion2 = new Discord.MessageEmbed()
 .setColor('#303136') // Couleur du règlement de disccussion (2)
-.setImage('https://i.imgur.com/AFAbFdP.png')
+.setImage('https://cdn-longterm.mee6.xyz/plugins/embeds/images/883428470326169680/aa790fc67f901531ea198662cf4646042bd6d56e60be4d825c6d495cb2c768d8.png')
 .setTitle('Règlement Vocale') // Description du règlement de discussion (2)
 .setDescription(`・Aucun saut de canal de chat vocal.\n・Aucun bruit gênant, fort ou aigu.\n・Réduisez la quantité de bruit de fond, si possible.\n・Aucune soundboard\n・Les modérateurs se réservent le droit de vous déconnecter d'un canal vocal si votre qualité sonore est mauvaise.\n・Les modérateurs se réservent le droit de déconnecter, de mettre en sourdine, d'assourdir ou de déplacer des membres vers et depuis les canaux vocaux.`)
 
@@ -90,9 +90,9 @@ client.on('messageCreate',  message => {
         	const descregle = new Discord.MessageEmbed()
           .setAuthor({ name: 'Kaori Café', iconURL: 'https://i.imgur.com/d0diZ3p.jpg'})
           .setColor("#303136") // Couleur de la présentation
-          .setImage('https://i.imgur.com/AFAbFdP.png')
+          .setImage('https://cdn-longterm.mee6.xyz/plugins/embeds/images/883428470326169680/aa790fc67f901531ea198662cf4646042bd6d56e60be4d825c6d495cb2c768d8.png')
           .addFields(
-		{ name: 'Bienvenue sur le serveur Kaori Café', value: 'Bienvenue sur Kaori, une communauté **bienveillantr**, **amicale** et **LGBTQ+**, sois le bienvenue sur nôtre communauté avant de commencer merci de lire nôtre **règlement** via le boutton ci-dessous, passe un très bon moment avec nous.' },
+		{ name: 'Bienvenue sur le serveur Kaori Café', value: '```\n⛩️  ✿  ⋅⊱  Bienvenue sur Kaori Café !```\nest un serveur communautaire afin de regrouper une communauté française autours de plusieurs thème une communauté amicale, LGBTQ+ nous avons pour but de faire à ce que tout se sens inclus\n\nComme tout serveur communautaire, nous avons conçu un règlement que vous devriez respecter à la lettre, au bout d`\'\`un troisième avertissement et nous serons dans l`\'\`obligation de vous bannir du serveur.\n\n**Invitation**・[.gg/kaori](https://discord.gg/kaori)\n**Créer le**・<t:1582578000:R>\n**Fondatrce**・<@499447456678019072>' },
             )
 
        		message.channel.send({ embeds: [ regle, descregle ], components: [row]})
