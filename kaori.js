@@ -24,7 +24,7 @@ var conditions = new Discord.MessageEmbed()
 .addFields(
 		{ name: 'Notre Equipe', value: 'Pour maintenir une bonne entente sur la communauté il faut une bonne équipe de modération, voici là nôtre' },
 		{ name: '\u200B', value: '\u200B' },
-		{ name: '<:icons_hammer:1065159464572960828> Créatrice', value: '<@499447456678019072> <@933429923572482108>', inline: true },
+		{ name: 'Créatrice', value: '<@499447456678019072> <@933429923572482108>', inline: true },
 		{ name: 'Gérant.e', value: '<@594574555494875173> <@695212940596609075> <@832913780970094612> <@1062002817310670959> <@729279395629367318> <@683464613790220288>', inline: true },
 	        { name: 'Assistance', value: '<@251022026872061952> <@981953679139684373> <@735480748932333588> <@751763098993426492> <@974858841437130792> <@738426341342576671>', inline: true },
 	        { name: 'De confiance', value: '<@747890356665974895> <@836592388884660287> <@775470411583717384> <@752087356395225118>', inline: true },
@@ -92,7 +92,7 @@ client.on('messageCreate',  message => {
         	const descregle = new Discord.MessageEmbed()
           .setColor("#303136") // Couleur de la présentation
           .setImage('https://i.imgur.com/rcrMdKF.png')
-          .setDescription('Ravis de te compter parmis nos membres avant de commencer prend des rôles pour que personnes puissent se tromper sur ton pronoms et prend les notification sur tu veut recevoir.\n\n**Présentation de Kaori**\nKaori est une communauté existant depuis 2021 une communauté toujours aussi grande ou tu peut parler de tout et de rien sans aucun jugement, parler de tes problèmmes avoir des gens là pour toi, certaines personnes ont peur des grandes communauté parce que y a des fois des choses qui se laisse passer par les staff ont souhaite faire le contraire, offrir une bonne expérience Discord et un endroit prospére ou règne un respect mutuel, une bonne entente et de bonnes personnes mais biensûre pour sa il faut une bonne modération et un règlement strict nous avons mis le nôtre de façon interactive et facile à lire, ont est aussi le serveur support du bot Kaori (le nôtre).\n<:icons_globe:1065159456540872704> [**Notre Bot**](https://discord.com/api/oauth2/authorize?client_id=855107430693077033&permissions=4398046511095&redirect_uri=https%3A%2F%2Fdiscord.gg%2FEYT7x5MAWH&response_type=code&scope=guilds.join%20identify%20bot)\n<:icons_heart:1065158925948829697> **Date de création**: <t:1582623660:R>\n**Par**: <@933429923572482108> & <@499447456678019072>')
+          .setDescription('Ravis de te compter parmis nos membres avant de commencer prend des rôles pour que personnes puissent se tromper sur ton pronoms et prend les notification sur tu veut recevoir.\n\n**Présentation de Kaori**\nKaori est une communauté existant depuis 2021 une communauté toujours aussi grande ou tu peut parler de tout et de rien sans aucun jugement, parler de tes problèmmes avoir des gens là pour toi, certaines personnes ont peur des grandes communauté parce que y a des fois des choses qui se laisse passer par les staff ont souhaite faire le contraire, offrir une bonne expérience Discord et un endroit prospére ou règne un respect mutuel, une bonne entente et de bonnes personnes mais biensûre pour sa il faut une bonne modération et un règlement strict nous avons mis le nôtre de façon interactive et facile à lire, Kaori n\'est pas juste une communauté mais une famille.')
 
        		message.channel.send({ embeds: [ regle, descregle ], components: [row]})
       	}
