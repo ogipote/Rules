@@ -24,10 +24,12 @@ var conditions = new Discord.MessageEmbed()
 .addFields(
 		{ name: 'Notre Equipe', value: 'Pour maintenir une bonne entente sur la communauté il faut une bonne équipe de modération, voici là nôtre' },
 		{ name: '\u200B', value: '\u200B' },
-		{ name: '<@&1029763919981584435>', value: '<@499447456678019072> <@933429923572482108>', inline: true },
-		{ name: '<@&1029797833001402458>', value: '<@594574555494875173> <@695212940596609075> <@832913780970094612> <@1062002817310670959> <@729279395629367318> <@683464613790220288>', inline: true },
-	        { name: '<@&1029800317702918227>', value: '<@251022026872061952> <@981953679139684373> <@735480748932333588> <@751763098993426492> <@974858841437130792> <@738426341342576671>', inline: true },
-	        { name: '<@&1029801816935899176>', value: '<@747890356665974895> <@836592388884660287> <@775470411583717384>', inline: true },
+		{ name: 'Créatrice', value: '<@499447456678019072> <@933429923572482108>', inline: true },
+		{ name: 'Gérant.e', value: '<@594574555494875173> <@695212940596609075> <@832913780970094612> <@1062002817310670959> <@729279395629367318> <@683464613790220288>', inline: true },
+	        { name: 'Assistance', value: '<@251022026872061952> <@981953679139684373> <@735480748932333588> <@751763098993426492> <@974858841437130792> <@738426341342576671>', inline: true },
+	        { name: 'De confiance', value: '<@747890356665974895> <@836592388884660287> <@775470411583717384> <@752087356395225118>', inline: true },
+	        { name: 'Staff', value: '<@725758918801752124> <@755152232105902101>', inline: true },
+	        { name: 'CM Actif', value: '<@764873210268614656> <@983121607834882108> <@922176997579427890> <@715503630324858972> <@594640804518297610>', inline: true },
 	)
 .setImage('https://i.imgur.com/rcrMdKF.png') // Image des condtions
 var discussion = new Discord.MessageEmbed()
@@ -52,21 +54,21 @@ client.on('messageCreate',  message => {
         .addComponents(
             new Discord.MessageSelectMenu()
             .setCustomId("select")
-            .setPlaceholder("📚 Lire le règlement de la communauté") // Boutton de selection
+            .setPlaceholder("Lire le règlement de la communauté") // Boutton de selection
             .addOptions([
                 {
-                    label: "Generale", // Réglement génèrale
-                  emoji: "👩🏿‍🤝‍👩🏼",
+                    label: "Règlement Générale", // Réglement génèrale
+                    emoji: "1065159096984145932",
                     value: "generale"
                 },
                 {
-                    label: "Discussion", // Réglement de la discussion
-                  emoji: "🧮",
+                    label: "Règlement Discussion", // Réglement de la discussion
+                    emoji: "1065158925948829697",
                     value: "discussion"
                 },
               {
-                    label: "Conditions", // Conditions du serveur
-                emoji: "🌈",
+                    label: "Notre Equipe", // Conditions du serveur
+                    emoji: "1065159061470978078",
                     value: "conditions"
                 }
             ])
@@ -88,7 +90,6 @@ client.on('messageCreate',  message => {
           .setImage('https://i.imgur.com/5HLKuh0.png')
           .setColor("#303136") // Couleur du haut de la présentation
         	const descregle = new Discord.MessageEmbed()
-          .setAuthor({ name: 'Kaori Café', iconURL: 'https://i.imgur.com/d0diZ3p.jpg'})
           .setColor("#303136") // Couleur de la présentation
           .setImage('https://i.imgur.com/rcrMdKF.png')
           .addFields(
